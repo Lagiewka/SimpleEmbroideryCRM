@@ -92,6 +92,15 @@
   <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>1277, 458</value>
   </data>
+  <data name="gridClients.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="gridClients.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>7, 236</value>
+  </data>
+  <data name="gridClients.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>1255, 150</value>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>1279, 458</value>
   </data>

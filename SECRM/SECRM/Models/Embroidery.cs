@@ -1,29 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Data;
-using System.Text;
+
+#nullable disable
 
 namespace SECRM.Models
 {
-    public class Embroidery
+    public partial class Embroidery
     {
-        [Key]
-        public int EmbroideryId { get; set; }
-        [Required]
-        public byte[] Image { get; set; }
-        [Required]
-        public string Name { get; set; }
-        public int StitchesQty { get; set; }
-        public double ProgrammingPrice { get; set; }
-        public double FrontPrice { get; set; }
-        public double BackPrice { get; set; }
-        public int FrontHight { get; set; }
-        public int FrontWidth { get; set; }
-        public int BackHeight { get; set; }
-        public int BackWidth { get; set; }
-        public string Observations { get; set; }
+        public Embroidery()
+        {
+            EmbroideryColors = new HashSet<EmbroideryColor>();
+        }
 
-        public ICollection<EmbroideryColor> EmbroideryColors { get; set; }
+        public int EmbroideryId { get; set; }
+        public string Name { get; set; }
+        public byte[] Image { get; set; }
+        public int? StitchQty { get; set; }
+        public decimal? ProgrammingPrice { get; set; }
+        public decimal? FrontPrice { get; set; }
+        public float? FrontHeight { get; set; }
+        public float? FrontWidth { get; set; }
+        public decimal? BackPrice { get; set; }
+        public float? BackHight { get; set; }
+        public float? BackWidth { get; set; }
+        public string Observations { get; set; }
+        public int ClientId { get; set; }
+
+        public virtual Client Client { get; set; }
+        public virtual ICollection<EmbroideryColor> EmbroideryColors { get; set; }
     }
 }

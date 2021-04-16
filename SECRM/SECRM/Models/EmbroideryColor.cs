@@ -1,21 +1,18 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+
+#nullable disable
 
 namespace SECRM.Models
 {
-    public class EmbroideryColor
+    public partial class EmbroideryColor
     {
         public int EmbroideryColorId { get; set; }
         public int EmbroideryId { get; set; }
-        public Embroidery Embroidery { get; set; }
         public int ColorId { get; set; }
-        public Color Color { get; set; }
-        public int Order { get; set; }
+        public int Position { get; set; }
 
-
-
+        public virtual Color Color { get; set; }
+        public virtual Embroidery Embroidery { get; set; }
     }
 }

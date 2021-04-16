@@ -33,12 +33,16 @@
             this.tabClient = new System.Windows.Forms.TabPage();
             this.gridClients = new System.Windows.Forms.DataGridView();
             this.tabEmbroidery = new System.Windows.Forms.TabPage();
+            this.gridEmbroideries = new System.Windows.Forms.DataGridView();
             this.tabColor = new System.Windows.Forms.TabPage();
-            this.sqliteConnection = new Microsoft.Data.Sqlite.SqliteConnection();
-            this.All_From_Client = new Microsoft.Data.Sqlite.SqliteCommand();
+            this.gridColors = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
             this.tabClient.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridClients)).BeginInit();
+            this.tabEmbroidery.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridEmbroideries)).BeginInit();
+            this.tabColor.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridColors)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -49,8 +53,7 @@
             this.tabControl1.Controls.Add(this.tabColor);
             this.tabControl1.Multiline = true;
             this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 2;
-            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
+            this.tabControl1.SelectedIndex = 0;
             // 
             // tabClient
             // 
@@ -62,33 +65,37 @@
             // gridClients
             // 
             resources.ApplyResources(this.gridClients, "gridClients");
+            this.gridClients.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.gridClients.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridClients.Name = "gridClients";
             // 
             // tabEmbroidery
             // 
             resources.ApplyResources(this.tabEmbroidery, "tabEmbroidery");
+            this.tabEmbroidery.Controls.Add(this.gridEmbroideries);
             this.tabEmbroidery.Name = "tabEmbroidery";
             this.tabEmbroidery.UseVisualStyleBackColor = true;
+            // 
+            // gridEmbroideries
+            // 
+            resources.ApplyResources(this.gridEmbroideries, "gridEmbroideries");
+            this.gridEmbroideries.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.gridEmbroideries.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridEmbroideries.Name = "gridEmbroideries";
             // 
             // tabColor
             // 
             resources.ApplyResources(this.tabColor, "tabColor");
+            this.tabColor.Controls.Add(this.gridColors);
             this.tabColor.Name = "tabColor";
             this.tabColor.UseVisualStyleBackColor = true;
             // 
-            // sqliteConnection
+            // gridColors
             // 
-            this.sqliteConnection.ConnectionString = "Data Source = SECRMDb.db";
-            this.sqliteConnection.DefaultTimeout = 0;
-            // 
-            // All_From_Client
-            // 
-            this.All_From_Client.CommandText = "select * from clients";
-            this.All_From_Client.CommandTimeout = 30;
-            this.All_From_Client.Connection = this.sqliteConnection;
-            this.All_From_Client.Transaction = null;
-            this.All_From_Client.UpdatedRowSource = System.Data.UpdateRowSource.OutputParameters;
+            resources.ApplyResources(this.gridColors, "gridColors");
+            this.gridColors.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.gridColors.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridColors.Name = "gridColors";
             // 
             // FrmMain
             // 
@@ -100,6 +107,10 @@
             this.tabControl1.ResumeLayout(false);
             this.tabClient.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridClients)).EndInit();
+            this.tabEmbroidery.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridEmbroideries)).EndInit();
+            this.tabColor.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridColors)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -110,10 +121,9 @@
         private System.Windows.Forms.TabPage tabClient;
         private System.Windows.Forms.TabPage tabEmbroidery;
         private System.Windows.Forms.TabPage tabColor;
-        private Microsoft.Data.Sqlite.SqliteConnection sqliteConnection;
-        private Microsoft.Data.Sqlite.SqliteCommand All_From_Client;
         private System.Windows.Forms.DataGridView gridClients;
-        private Microsoft.Data.Sqlite.SqliteCommand All_From_Clients;
+        private System.Windows.Forms.DataGridView gridEmbroideries;
+        private System.Windows.Forms.DataGridView gridColors;
     }
 }
 

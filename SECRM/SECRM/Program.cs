@@ -16,9 +16,6 @@ namespace SECRM
         [STAThread]
         static void Main()
         {
-            //Thread.CurrentThread.CurrentCulture = new CultureInfo("en");
-
-
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

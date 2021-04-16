@@ -57,147 +57,213 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;gridClients.Name" xml:space="preserve">
-    <value>gridClients</value>
-  </data>
   <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="gridClients.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>240, 150</value>
-  </data>
-  <data name="&gt;&gt;tabColor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;All_From_Clients.Type" xml:space="preserve">
-    <value>Microsoft.Data.Sqlite.SqliteCommand, Microsoft.Data.Sqlite, Version=5.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</value>
-  </data>
-  <data name="&gt;&gt;tabColor.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;All_From_Clients.Name" xml:space="preserve">
-    <value>All_From_Clients</value>
-  </data>
-  <data name="&gt;&gt;tabColor.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;gridClients.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tabEmbroidery.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tabEmbroidery.Name" xml:space="preserve">
-    <value>tabEmbroidery</value>
-  </data>
-  <data name="&gt;&gt;gridClients.Parent" xml:space="preserve">
-    <value>tabClient</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
-    <value>8, 20</value>
-  </data>
-  <data name="&gt;&gt;tabColor.Name" xml:space="preserve">
-    <value>tabColor</value>
-  </data>
-  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
-  <data name="tabClient.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>0</value>
-  </data>
-  <data name="gridClients.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tabClient.Name" xml:space="preserve">
-    <value>tabClient</value>
-  </data>
-  <data name="tabColor.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>4, 29</value>
-  </data>
-  <data name="tabEmbroidery.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tabClient.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;All_From_Client.Type" xml:space="preserve">
-    <value>Microsoft.Data.Sqlite.SqliteCommand, Microsoft.Data.Sqlite, Version=5.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</value>
-  </data>
-  <data name="&gt;&gt;tabEmbroidery.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tabColor.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;tabEmbroidery.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tabControl1.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmMain</value>
-  </data>
-  <data name="&gt;&gt;sqliteConnection.Name" xml:space="preserve">
-    <value>sqliteConnection</value>
-  </data>
-  <data name="tabClient.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>4, 29</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>802, 458</value>
-  </data>
   <data name="tabEmbroidery.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>4, 29</value>
   </data>
-  <data name="&gt;&gt;sqliteConnection.Type" xml:space="preserve">
-    <value>Microsoft.Data.Sqlite.SqliteConnection, Microsoft.Data.Sqlite, Version=5.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</value>
+  <data name="&gt;&gt;gridClients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Form1</value>
+  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+  <data name="gridColors.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="gridClients.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;gridEmbroideries.Parent" xml:space="preserve">
+    <value>tabEmbroidery</value>
   </data>
   <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gridClients.Name" xml:space="preserve">
+    <value>gridClients</value>
+  </data>
+  <data name="tabColor.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>2</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
+    <value>8, 20</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;gridColors.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="&gt;&gt;tabClient.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>tabEmbroidery</value>
+  </data>
+  <data name="&gt;&gt;gridColors.Name" xml:space="preserve">
+    <value>gridColors</value>
+  </data>
   <data name="gridClients.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
     <value>51</value>
   </data>
-  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="tabColor.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>4, 29</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmMain</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gridEmbroideries.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
+    <value>51</value>
+  </data>
+  <data name="gridEmbroideries.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>7, 233</value>
+  </data>
+  <data name="tabEmbroidery.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabEmbroidery.Name" xml:space="preserve">
+    <value>tabEmbroidery</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="dataGridView1.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
+    <value>51</value>
   </data>
   <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
     <value>tabControl1</value>
   </data>
-  <data name="&gt;&gt;All_From_Client.Name" xml:space="preserve">
-    <value>All_From_Client</value>
+  <data name="&gt;&gt;tabColor.Name" xml:space="preserve">
+    <value>tabColor</value>
   </data>
-  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>1, 1</value>
+  <data name="&gt;&gt;tabClient.Parent" xml:space="preserve">
+    <value>tabControl1</value>
   </data>
-  <data name="gridClients.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>0, 0</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>802, 458</value>
+  </data>
+  <data name="&gt;&gt;gridColors.Parent" xml:space="preserve">
+    <value>tabColor</value>
+  </data>
+  <data name="&gt;&gt;All_From_Client.Type" xml:space="preserve">
+    <value>Microsoft.Data.Sqlite.SqliteCommand, Microsoft.Data.Sqlite, Version=5.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</value>
+  </data>
+  <data name="&gt;&gt;tabColor.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="gridClients.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="gridColors.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;gridEmbroideries.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabEmbroidery.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridEmbroideries.Name" xml:space="preserve">
+    <value>gridEmbroideries</value>
   </data>
   <data name="&gt;&gt;tabClient.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;gridClients.Type" xml:space="preserve">
+  <data name="&gt;&gt;sqliteConnection.Type" xml:space="preserve">
+    <value>Microsoft.Data.Sqlite.SqliteConnection, Microsoft.Data.Sqlite, Version=5.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tabClient.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="gridColors.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>7, 233</value>
+  </data>
+  <data name="&gt;&gt;tabEmbroidery.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabColor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gridEmbroideries.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabClient.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>4, 29</value>
+  </data>
+  <data name="&gt;&gt;gridClients.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;sqliteConnection.Name" xml:space="preserve">
+    <value>sqliteConnection</value>
+  </data>
+  <data name="gridEmbroideries.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabEmbroidery.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gridClients.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>240, 150</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;All_From_Clients.Type" xml:space="preserve">
+    <value>Microsoft.Data.Sqlite.SqliteCommand, Microsoft.Data.Sqlite, Version=5.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</value>
+  </data>
+  <data name="&gt;&gt;All_From_Client.Name" xml:space="preserve">
+    <value>All_From_Client</value>
+  </data>
+  <data name="&gt;&gt;gridColors.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;tabColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;All_From_Clients.Name" xml:space="preserve">
+    <value>All_From_Clients</value>
+  </data>
+  <data name="&gt;&gt;tabClient.Name" xml:space="preserve">
+    <value>tabClient</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>7, 233</value>
+  </data>
+  <data name="&gt;&gt;gridClients.Parent" xml:space="preserve">
+    <value>tabClient</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="tabControl1.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>en-001</value>
+    <value>pt-BR</value>
   </metadata>
   <metadata name="All_From_Clients.DesignTimeVisible" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>False</value>
   </metadata>
   <metadata name="All_From_Client.DesignTimeVisible" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>False</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>True</value>
   </metadata>
 </root>

@@ -1,19 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+
+#nullable disable
 
 namespace SECRM.Models
 {
-    public class Color
+    public partial class Color
     {
-        [Key]
+        public Color()
+        {
+            EmbroideryColors = new HashSet<EmbroideryColor>();
+        }
+
         public int ColorId { get; set; }
-        [Required]
         public string Name { get; set; }
         public string Catalog { get; set; }
-        public string Number { get; set; }
+        public string Code { get; set; }
 
-        public ICollection<EmbroideryColor> EmbroideryColors { get; set; }
+        public virtual ICollection<EmbroideryColor> EmbroideryColors { get; set; }
     }
 }
