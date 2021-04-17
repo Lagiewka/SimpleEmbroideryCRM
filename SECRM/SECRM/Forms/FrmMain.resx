@@ -58,114 +58,438 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="tabEmbroidery.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>4, 29</value>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>1, 1</value>
   </data>
-  <data name="&gt;&gt;gridClients.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnColorInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
-  <data name="gridColors.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>0</value>
+  <data name="&gt;&gt;txtColorSearch.Parent" xml:space="preserve">
+    <value>tabColor</value>
   </data>
-  <data name="gridClients.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>0, 0</value>
+  <data name="&gt;&gt;btnClientDelete.Name" xml:space="preserve">
+    <value>btnClientDelete</value>
   </data>
-  <data name="&gt;&gt;gridEmbroideries.Parent" xml:space="preserve">
-    <value>tabEmbroidery</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="btnEmbInfo.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>139, 189</value>
   </data>
   <data name="&gt;&gt;gridClients.Name" xml:space="preserve">
     <value>gridClients</value>
   </data>
-  <data name="tabColor.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>2</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
-    <value>8, 20</value>
-  </data>
-  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
-    <value>dataGridView1</value>
-  </data>
-  <data name="&gt;&gt;gridColors.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tabClient.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
-    <value>tabEmbroidery</value>
-  </data>
-  <data name="&gt;&gt;gridColors.Name" xml:space="preserve">
-    <value>gridColors</value>
-  </data>
-  <data name="gridClients.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
-    <value>51</value>
-  </data>
-  <data name="tabColor.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>4, 29</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmMain</value>
-  </data>
-  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="gridEmbroideries.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
-    <value>51</value>
-  </data>
-  <data name="gridEmbroideries.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>7, 233</value>
-  </data>
-  <data name="tabEmbroidery.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tabEmbroidery.Name" xml:space="preserve">
-    <value>tabEmbroidery</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="dataGridView1.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>0</value>
-  </data>
-  <data name="dataGridView1.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
-    <value>51</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
-    <value>tabControl1</value>
+  <data name="&gt;&gt;btnEmbDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tabColor.Name" xml:space="preserve">
     <value>tabColor</value>
   </data>
-  <data name="&gt;&gt;tabClient.Parent" xml:space="preserve">
-    <value>tabControl1</value>
+  <data name="&gt;&gt;tabClient.Name" xml:space="preserve">
+    <value>tabClient</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>802, 458</value>
+  <data name="&gt;&gt;btnColorAdd.Name" xml:space="preserve">
+    <value>btnColorAdd</value>
   </data>
-  <data name="&gt;&gt;gridColors.Parent" xml:space="preserve">
-    <value>tabColor</value>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+  <data name="gridColors.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>tabEmbroidery</value>
+  </data>
+  <data name="&gt;&gt;txtClientSearch.Name" xml:space="preserve">
+    <value>txtClientSearch</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabEmbroidery.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>4, 29</value>
+  </data>
+  <data name="&gt;&gt;btnEmbSearch.Name" xml:space="preserve">
+    <value>btnEmbSearch</value>
+  </data>
+  <data name="&gt;&gt;btnEmbEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtColorSearch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtClientSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtColorSearch.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>7, 13</value>
+  </data>
+  <data name="btnColorDelete.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>95, 189</value>
+  </data>
+  <data name="btnEmbInfo.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>5</value>
+  </data>
+  <data name="btnColorInfo.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>139, 189</value>
+  </data>
+  <data name="btnColorSearch.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="gridEmbroideries.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>7, 233</value>
+  </data>
+  <data name="&gt;&gt;gridClients.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gridColors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dataGridView1.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
+    <value>51</value>
+  </data>
+  <data name="btnColorEdit.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClientEdit.Name" xml:space="preserve">
+    <value>btnClientEdit</value>
+  </data>
+  <data name="btnColorInfo.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnEmbEdit.Parent" xml:space="preserve">
+    <value>tabEmbroidery</value>
   </data>
   <data name="&gt;&gt;All_From_Client.Type" xml:space="preserve">
     <value>Microsoft.Data.Sqlite.SqliteCommand, Microsoft.Data.Sqlite, Version=5.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</value>
   </data>
-  <data name="&gt;&gt;tabColor.Parent" xml:space="preserve">
-    <value>tabControl1</value>
+  <data name="&gt;&gt;btnEmbInfo.Parent" xml:space="preserve">
+    <value>tabEmbroidery</value>
+  </data>
+  <data name="&gt;&gt;btnColorAdd.Parent" xml:space="preserve">
+    <value>tabColor</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnClientAdd.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnClientDelete.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="txtClientSearch.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>7, 13</value>
+  </data>
+  <data name="tabColor.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>4, 29</value>
+  </data>
+  <data name="txtColorSearch.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>6</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnClientSearch.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabClient.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>7, 233</value>
+  </data>
+  <data name="btnColorDelete.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnColorDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sqliteConnection.Name" xml:space="preserve">
+    <value>sqliteConnection</value>
   </data>
   <data name="gridClients.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>0</value>
   </data>
-  <data name="gridColors.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
+  <data name="&gt;&gt;btnColorInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnClientAdd.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnColorDelete.Name" xml:space="preserve">
+    <value>btnColorDelete</value>
+  </data>
+  <data name="&gt;&gt;btnColorInfo.Name" xml:space="preserve">
+    <value>btnColorInfo</value>
+  </data>
+  <data name="&gt;&gt;btnEmbAdd.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnEmbAdd.Parent" xml:space="preserve">
+    <value>tabEmbroidery</value>
+  </data>
+  <data name="&gt;&gt;btnColorAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClientAdd.Name" xml:space="preserve">
+    <value>btnClientAdd</value>
+  </data>
+  <data name="gridClients.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
     <value>51</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>139, 189</value>
+  </data>
+  <data name="&gt;&gt;gridEmbroideries.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnColorSearch.Parent" xml:space="preserve">
+    <value>tabColor</value>
+  </data>
+  <data name="&gt;&gt;btnColorSearch.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnClientDelete.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>95, 189</value>
+  </data>
+  <data name="tabClient.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="btnClientDelete.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnClientSearch.Parent" xml:space="preserve">
+    <value>tabClient</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>95, 189</value>
+  </data>
+  <data name="txtEmbSearch.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>6</value>
+  </data>
+  <data name="gridEmbroideries.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;gridColors.Name" xml:space="preserve">
+    <value>gridColors</value>
+  </data>
+  <data name="&gt;&gt;tabEmbroidery.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="btnEmbAdd.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="gridClients.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>240, 150</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>tabEmbroidery</value>
+  </data>
+  <data name="&gt;&gt;btnEmbEdit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnColorSearch.Name" xml:space="preserve">
+    <value>btnColorSearch</value>
+  </data>
+  <data name="&gt;&gt;tabEmbroidery.Name" xml:space="preserve">
+    <value>tabEmbroidery</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="gridColors.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="btnEmbDelete.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtEmbSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnColorAdd.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>7, 189</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
+    <value>8, 20</value>
+  </data>
+  <data name="btnClientEdit.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;btnColorEdit.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnClientInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>tabEmbroidery</value>
+  </data>
+  <data name="btnClientEdit.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>51, 189</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>51, 189</value>
+  </data>
+  <data name="&gt;&gt;btnEmbAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEmbEdit.Name" xml:space="preserve">
+    <value>btnEmbEdit</value>
+  </data>
+  <data name="&gt;&gt;txtEmbSearch.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnEmbDelete.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>95, 189</value>
+  </data>
+  <data name="btnEmbEdit.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>51, 189</value>
+  </data>
+  <data name="gridEmbroideries.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtColorSearch.Name" xml:space="preserve">
+    <value>txtColorSearch</value>
+  </data>
+  <data name="&gt;&gt;btnEmbInfo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnEmbInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColorDelete.Parent" xml:space="preserve">
+    <value>tabColor</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEmbDelete.Name" xml:space="preserve">
+    <value>btnEmbDelete</value>
+  </data>
+  <data name="&gt;&gt;All_From_Client.Name" xml:space="preserve">
+    <value>All_From_Client</value>
+  </data>
+  <data name="&gt;&gt;btnColorAdd.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tabColor.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="btnColorAdd.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnEmbInfo.Name" xml:space="preserve">
+    <value>btnEmbInfo</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gridEmbroideries.Name" xml:space="preserve">
+    <value>gridEmbroideries</value>
+  </data>
+  <data name="&gt;&gt;btnClientSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabClient.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>4, 29</value>
   </data>
   <data name="&gt;&gt;gridEmbroideries.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabEmbroidery.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;btnClientSearch.Name" xml:space="preserve">
+    <value>btnClientSearch</value>
+  </data>
+  <data name="&gt;&gt;txtClientSearch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnClientInfo.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnEmbDelete.Parent" xml:space="preserve">
+    <value>tabEmbroidery</value>
+  </data>
+  <data name="btnColorEdit.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>51, 189</value>
+  </data>
+  <data name="&gt;&gt;btnEmbSearch.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="gridColors.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>7, 233</value>
+  </data>
+  <data name="&gt;&gt;btnColorEdit.Name" xml:space="preserve">
+    <value>btnColorEdit</value>
+  </data>
+  <data name="btnEmbEdit.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>2</value>
+  </data>
+  <data name="txtClientSearch.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tabColor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnClientEdit.Parent" xml:space="preserve">
+    <value>tabClient</value>
+  </data>
+  <data name="&gt;&gt;gridColors.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnClientInfo.Name" xml:space="preserve">
+    <value>btnClientInfo</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>802, 458</value>
+  </data>
+  <data name="&gt;&gt;btnColorSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClientAdd.Parent" xml:space="preserve">
+    <value>tabClient</value>
   </data>
   <data name="tabControl1.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>0</value>
@@ -173,97 +497,169 @@
   <data name="&gt;&gt;tabEmbroidery.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;gridEmbroideries.Name" xml:space="preserve">
-    <value>gridEmbroideries</value>
+  <data name="btnClientSearch.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;tabClient.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmMain</value>
   </data>
-  <data name="&gt;&gt;sqliteConnection.Type" xml:space="preserve">
-    <value>Microsoft.Data.Sqlite.SqliteConnection, Microsoft.Data.Sqlite, Version=5.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</value>
+  <data name="btnClientAdd.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>7, 189</value>
   </data>
-  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="gridClients.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>0, 0</value>
   </data>
-  <data name="tabClient.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>0</value>
+  <data name="&gt;&gt;btnClientEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="gridColors.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>7, 233</value>
+  <data name="&gt;&gt;btnEmbSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tabEmbroidery.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnColorDelete.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;gridColors.Parent" xml:space="preserve">
+    <value>tabColor</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtColorSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColorInfo.Parent" xml:space="preserve">
+    <value>tabColor</value>
+  </data>
+  <data name="&gt;&gt;btnClientInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEmbSearch.Name" xml:space="preserve">
+    <value>txtEmbSearch</value>
+  </data>
+  <data name="txtEmbSearch.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>7, 13</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
     <value>tabControl1</value>
   </data>
-  <data name="&gt;&gt;tabColor.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnColorEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabColor.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;gridEmbroideries.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="btnEmbAdd.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>7, 189</value>
   </data>
-  <data name="tabClient.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>4, 29</value>
+  <data name="&gt;&gt;btnClientEdit.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;gridClients.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;sqliteConnection.Name" xml:space="preserve">
-    <value>sqliteConnection</value>
-  </data>
-  <data name="gridEmbroideries.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tabEmbroidery.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="gridClients.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>240, 150</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Form1</value>
-  </data>
-  <data name="&gt;&gt;All_From_Clients.Type" xml:space="preserve">
-    <value>Microsoft.Data.Sqlite.SqliteCommand, Microsoft.Data.Sqlite, Version=5.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</value>
-  </data>
-  <data name="&gt;&gt;All_From_Client.Name" xml:space="preserve">
-    <value>All_From_Client</value>
-  </data>
-  <data name="&gt;&gt;gridColors.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>1, 1</value>
-  </data>
-  <data name="&gt;&gt;tabColor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;All_From_Clients.Name" xml:space="preserve">
-    <value>All_From_Clients</value>
-  </data>
-  <data name="&gt;&gt;tabClient.Name" xml:space="preserve">
+  <data name="&gt;&gt;txtClientSearch.Parent" xml:space="preserve">
     <value>tabClient</value>
   </data>
-  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>7, 233</value>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>183, 13</value>
+  </data>
+  <data name="btnEmbSearch.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>139, 7</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnClientInfo.Parent" xml:space="preserve">
+    <value>tabClient</value>
+  </data>
+  <data name="tabEmbroidery.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>tabEmbroidery</value>
+  </data>
+  <data name="&gt;&gt;gridClients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEmbAdd.Name" xml:space="preserve">
+    <value>btnEmbAdd</value>
   </data>
   <data name="&gt;&gt;gridClients.Parent" xml:space="preserve">
     <value>tabClient</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>True</value>
-  </metadata>
+  <data name="&gt;&gt;All_From_Clients.Type" xml:space="preserve">
+    <value>Microsoft.Data.Sqlite.SqliteCommand, Microsoft.Data.Sqlite, Version=5.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;btnColorEdit.Parent" xml:space="preserve">
+    <value>tabColor</value>
+  </data>
+  <data name="&gt;&gt;txtEmbSearch.Parent" xml:space="preserve">
+    <value>tabEmbroidery</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>tabEmbroidery</value>
+  </data>
+  <data name="btnClientInfo.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>139, 189</value>
+  </data>
+  <data name="&gt;&gt;btnClientAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;All_From_Clients.Name" xml:space="preserve">
+    <value>All_From_Clients</value>
+  </data>
+  <data name="&gt;&gt;gridEmbroideries.Parent" xml:space="preserve">
+    <value>tabEmbroidery</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClientDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnClientSearch.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>139, 7</value>
+  </data>
+  <data name="btnEmbSearch.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tabClient.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="btnColorSearch.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>139, 7</value>
+  </data>
+  <data name="&gt;&gt;btnEmbDelete.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnEmbSearch.Parent" xml:space="preserve">
+    <value>tabEmbroidery</value>
+  </data>
+  <data name="&gt;&gt;sqliteConnection.Type" xml:space="preserve">
+    <value>Microsoft.Data.Sqlite.SqliteConnection, Microsoft.Data.Sqlite, Version=5.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</value>
+  </data>
+  <data name="&gt;&gt;tabColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClientDelete.Parent" xml:space="preserve">
+    <value>tabClient</value>
+  </data>
   <metadata name="tabControl1.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>pt-BR</value>
   </metadata>
-  <metadata name="All_From_Clients.DesignTimeVisible" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>False</value>
+  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
   </metadata>
   <metadata name="All_From_Client.DesignTimeVisible" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>False</value>
+  </metadata>
+  <metadata name="All_From_Clients.DesignTimeVisible" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>False</value>
   </metadata>
 </root>

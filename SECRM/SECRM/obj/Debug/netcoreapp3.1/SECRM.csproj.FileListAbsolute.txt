@@ -62,3 +62,5 @@ C:\Users\Lucas Lagiewka\Desktop\SimpleEmbroideryCRM\SECRM\SECRM\bin\Debug\netcor
 C:\Users\Lucas Lagiewka\Desktop\SimpleEmbroideryCRM\SECRM\SECRM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\Lucas Lagiewka\Desktop\SimpleEmbroideryCRM\SECRM\SECRM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Lucas Lagiewka\Desktop\SimpleEmbroideryCRM\SECRM\SECRM\obj\Debug\netcoreapp3.1\SECRM.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Lagiewka\Desktop\SimpleEmbroideryCRM\SECRM\SECRM\obj\Debug\netcoreapp3.1\SECRM.Properties.Resources.resources
+C:\Users\Lucas Lagiewka\Desktop\SimpleEmbroideryCRM\SECRM\SECRM\obj\Debug\netcoreapp3.1\SECRM.Forms.frmClientAdd.resources

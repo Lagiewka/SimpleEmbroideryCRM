@@ -39,8 +39,6 @@ namespace SECRM.Models
             {
                 entity.ToTable("Client");
 
-                entity.Property(e => e.ClientId).ValueGeneratedNever();
-
                 entity.Property(e => e.Email).HasColumnType("text");
 
                 entity.Property(e => e.Machine).HasColumnType("text");
@@ -56,8 +54,6 @@ namespace SECRM.Models
             {
                 entity.ToTable("Color");
 
-                entity.Property(e => e.ColorId).ValueGeneratedNever();
-
                 entity.Property(e => e.Catalog).HasColumnType("text");
 
                 entity.Property(e => e.Code).HasColumnType("text");
@@ -70,8 +66,6 @@ namespace SECRM.Models
             modelBuilder.Entity<Embroidery>(entity =>
             {
                 entity.ToTable("Embroidery");
-
-                entity.Property(e => e.EmbroideryId).ValueGeneratedNever();
 
                 entity.Property(e => e.BackPrice).HasColumnType("money");
 
@@ -99,8 +93,6 @@ namespace SECRM.Models
             modelBuilder.Entity<EmbroideryColor>(entity =>
             {
                 entity.ToTable("EmbroideryColor");
-
-                entity.Property(e => e.EmbroideryColorId).ValueGeneratedNever();
 
                 entity.HasOne(d => d.Color)
                     .WithMany(p => p.EmbroideryColors)
