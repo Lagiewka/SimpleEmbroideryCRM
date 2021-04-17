@@ -35,7 +35,6 @@
             this.btnClientInfo = new System.Windows.Forms.Button();
             this.btnClientSearch = new System.Windows.Forms.Button();
             this.btnClientDelete = new System.Windows.Forms.Button();
-            this.btnClientEdit = new System.Windows.Forms.Button();
             this.btnClientAdd = new System.Windows.Forms.Button();
             this.gridClients = new System.Windows.Forms.DataGridView();
             this.tabEmbroidery = new System.Windows.Forms.TabPage();
@@ -52,7 +51,6 @@
             this.btnColorInfo = new System.Windows.Forms.Button();
             this.btnColorSearch = new System.Windows.Forms.Button();
             this.btnColorDelete = new System.Windows.Forms.Button();
-            this.btnColorEdit = new System.Windows.Forms.Button();
             this.btnColorAdd = new System.Windows.Forms.Button();
             this.gridColors = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
@@ -82,7 +80,6 @@
             this.tabClient.Controls.Add(this.btnClientInfo);
             this.tabClient.Controls.Add(this.btnClientSearch);
             this.tabClient.Controls.Add(this.btnClientDelete);
-            this.tabClient.Controls.Add(this.btnClientEdit);
             this.tabClient.Controls.Add(this.btnClientAdd);
             this.tabClient.Controls.Add(this.gridClients);
             this.tabClient.Name = "tabClient";
@@ -98,6 +95,7 @@
             resources.ApplyResources(this.btnClientInfo, "btnClientInfo");
             this.btnClientInfo.Name = "btnClientInfo";
             this.btnClientInfo.UseVisualStyleBackColor = true;
+            this.btnClientInfo.Click += new System.EventHandler(this.btnClientInfo_Click);
             // 
             // btnClientSearch
             // 
@@ -113,13 +111,6 @@
             this.btnClientDelete.UseVisualStyleBackColor = true;
             this.btnClientDelete.Click += new System.EventHandler(this.btnClientDelete_Click);
             // 
-            // btnClientEdit
-            // 
-            resources.ApplyResources(this.btnClientEdit, "btnClientEdit");
-            this.btnClientEdit.Name = "btnClientEdit";
-            this.btnClientEdit.UseVisualStyleBackColor = true;
-            this.btnClientEdit.Click += new System.EventHandler(this.btnClientEdit_Click);
-            // 
             // btnClientAdd
             // 
             resources.ApplyResources(this.btnClientAdd, "btnClientAdd");
@@ -133,6 +124,7 @@
             this.gridClients.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.gridClients.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridClients.Name = "gridClients";
+            this.gridClients.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridClients_CellEndEdit);
             // 
             // tabEmbroidery
             // 
@@ -172,12 +164,14 @@
             resources.ApplyResources(this.btnEmbDelete, "btnEmbDelete");
             this.btnEmbDelete.Name = "btnEmbDelete";
             this.btnEmbDelete.UseVisualStyleBackColor = true;
+            this.btnEmbDelete.Click += new System.EventHandler(this.btnEmbDelete_Click);
             // 
             // btnEmbSearch
             // 
             resources.ApplyResources(this.btnEmbSearch, "btnEmbSearch");
             this.btnEmbSearch.Name = "btnEmbSearch";
             this.btnEmbSearch.UseVisualStyleBackColor = true;
+            this.btnEmbSearch.Click += new System.EventHandler(this.btnEmbSearch_Click);
             // 
             // btnEmbInfo
             // 
@@ -196,6 +190,7 @@
             this.gridEmbroideries.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.gridEmbroideries.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridEmbroideries.Name = "gridEmbroideries";
+            this.gridEmbroideries.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridEmbroideries_CellEndEdit);
             // 
             // tabColor
             // 
@@ -204,7 +199,6 @@
             this.tabColor.Controls.Add(this.btnColorInfo);
             this.tabColor.Controls.Add(this.btnColorSearch);
             this.tabColor.Controls.Add(this.btnColorDelete);
-            this.tabColor.Controls.Add(this.btnColorEdit);
             this.tabColor.Controls.Add(this.btnColorAdd);
             this.tabColor.Controls.Add(this.gridColors);
             this.tabColor.Name = "tabColor";
@@ -220,30 +214,28 @@
             resources.ApplyResources(this.btnColorInfo, "btnColorInfo");
             this.btnColorInfo.Name = "btnColorInfo";
             this.btnColorInfo.UseVisualStyleBackColor = true;
+            this.btnColorInfo.Click += new System.EventHandler(this.btnColorInfo_Click);
             // 
             // btnColorSearch
             // 
             resources.ApplyResources(this.btnColorSearch, "btnColorSearch");
             this.btnColorSearch.Name = "btnColorSearch";
             this.btnColorSearch.UseVisualStyleBackColor = true;
+            this.btnColorSearch.Click += new System.EventHandler(this.btnColorSearch_Click);
             // 
             // btnColorDelete
             // 
             resources.ApplyResources(this.btnColorDelete, "btnColorDelete");
             this.btnColorDelete.Name = "btnColorDelete";
             this.btnColorDelete.UseVisualStyleBackColor = true;
-            // 
-            // btnColorEdit
-            // 
-            resources.ApplyResources(this.btnColorEdit, "btnColorEdit");
-            this.btnColorEdit.Name = "btnColorEdit";
-            this.btnColorEdit.UseVisualStyleBackColor = true;
+            this.btnColorDelete.Click += new System.EventHandler(this.btnColorDelete_Click);
             // 
             // btnColorAdd
             // 
             resources.ApplyResources(this.btnColorAdd, "btnColorAdd");
             this.btnColorAdd.Name = "btnColorAdd";
             this.btnColorAdd.UseVisualStyleBackColor = true;
+            this.btnColorAdd.Click += new System.EventHandler(this.btnColorAdd_Click);
             // 
             // gridColors
             // 
@@ -251,6 +243,7 @@
             this.gridColors.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.gridColors.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridColors.Name = "gridColors";
+            this.gridColors.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridColors_CellEndEdit);
             // 
             // FrmMain
             // 
@@ -286,7 +279,6 @@
         private System.Windows.Forms.Button btnClientInfo;
         private System.Windows.Forms.Button btnClientSearch;
         private System.Windows.Forms.Button btnClientDelete;
-        private System.Windows.Forms.Button btnClientEdit;
         private System.Windows.Forms.Button btnClientAdd;
         private System.Windows.Forms.TextBox txtClientSearch;
         private System.Windows.Forms.Button btnEmbAdd;
@@ -299,7 +291,6 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button btnColorSearch;
         private System.Windows.Forms.Button btnColorDelete;
-        private System.Windows.Forms.Button btnColorEdit;
         private System.Windows.Forms.Button btnColorAdd;
         private System.Windows.Forms.Button btnColorInfo;
         private System.Windows.Forms.PictureBox pictureBox1;

@@ -64,3 +64,7 @@ C:\Users\Lucas Lagiewka\Desktop\SimpleEmbroideryCRM\SECRM\SECRM\bin\Debug\netcor
 C:\Users\Lucas Lagiewka\Desktop\SimpleEmbroideryCRM\SECRM\SECRM\obj\Debug\netcoreapp3.1\SECRM.csproj.CoreCompileInputs.cache
 C:\Users\Lucas Lagiewka\Desktop\SimpleEmbroideryCRM\SECRM\SECRM\obj\Debug\netcoreapp3.1\SECRM.Properties.Resources.resources
 C:\Users\Lucas Lagiewka\Desktop\SimpleEmbroideryCRM\SECRM\SECRM\obj\Debug\netcoreapp3.1\SECRM.Forms.frmClientAdd.resources
+C:\Users\Lucas Lagiewka\Desktop\SimpleEmbroideryCRM\SECRM\SECRM\obj\Debug\netcoreapp3.1\SECRM.Forms.frmClientDetail.resources
+C:\Users\Lucas Lagiewka\Desktop\SimpleEmbroideryCRM\SECRM\SECRM\obj\Debug\netcoreapp3.1\SECRM.Forms.frmClientDetail - Cópia.resources
+C:\Users\Lucas Lagiewka\Desktop\SimpleEmbroideryCRM\SECRM\SECRM\obj\Debug\netcoreapp3.1\SECRM.Forms.frmColorAdd.resources
+C:\Users\Lucas Lagiewka\Desktop\SimpleEmbroideryCRM\SECRM\SECRM\obj\Debug\netcoreapp3.1\SECRM.Forms.frmColorDetail.resources

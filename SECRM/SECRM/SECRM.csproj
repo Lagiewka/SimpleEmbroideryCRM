@@ -23,6 +23,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Forms\frmColorDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\frmColorAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\frmClientDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -31,6 +40,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Forms\frmClientDetail - Cópia.resx">
+      <DependentUpon>frmClientDetail.resx</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Update="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

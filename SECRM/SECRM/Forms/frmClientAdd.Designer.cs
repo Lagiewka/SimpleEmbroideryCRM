@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmClientAdd));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmClientDetail));
             this.btnSave = new System.Windows.Forms.Button();
             this.lblClientName = new System.Windows.Forms.Label();
             this.txtClientName = new System.Windows.Forms.TextBox();
